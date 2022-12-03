@@ -8,7 +8,7 @@ RISC processor.
 - Required
 	- [yosys](https://github.com/YosysHQ/yosys)
 	- [symbiyosys](https://github.com/YosysHQ/sby)
-	- [yices](https://github.com/SRI-CSL/yices2)
+	- [yices2](https://github.com/SRI-CSL/yices2)
 - Optional
 	- [Icarus Verilog](https://github.com/steveicarus/iverilog)
 	- [gtkwave](https://gtkwave.sourceforge.net/)
