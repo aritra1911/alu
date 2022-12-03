@@ -1,0 +1,6 @@
+*_cover/
+*_bmc/
+*.swp
+*.lxt
+*.vcd
+*.vvp

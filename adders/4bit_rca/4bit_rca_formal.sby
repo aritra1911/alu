@@ -1,0 +1,21 @@
+[tasks]
+bmc
+cover
+
+[options]
+bmc: mode bmc
+cover: mode cover
+depth 2
+
+[engines]
+smtbmc
+
+[script]
+read -formal -sv 4bit_rca_formal.sv
+prep -top _4bit_rca_formal
+
+[files]
+4bit_rca_formal.sv
+4bit_rca.sv
+../fa/fa.sv
+../ha/ha.sv

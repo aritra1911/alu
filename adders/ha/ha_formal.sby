@@ -1,0 +1,19 @@
+[tasks]
+bmc
+cover
+
+[options]
+bmc: mode bmc
+cover: mode cover
+depth 2
+
+[engines]
+smtbmc
+
+[script]
+read -formal -sv ha_formal.sv
+prep -top ha_formal
+
+[files]
+ha_formal.sv
+ha.sv
