@@ -4,14 +4,14 @@
 `default_nettype none
 `timescale 1us/100 ns
 
-module _4bit_cla(a, b, c_in, s, c_out);
+module _4bit_cla(a, b, c_in, s, c_out, p, g);
 
     input wire [3:0] a, b;
     input wire c_in;
-    output wire [3:0] s;
+    output wire [3:0] s, p, g;
     output wire c_out;
 
-    wire [3:0] p, g, c;
+    wire [3:0] c;
 
     assign p = a ^ b;
     assign g = a & b;

@@ -17,5 +17,3 @@ prep -top _4bit_cla_formal
 [files]
 4bit_cla_formal.sv
 4bit_cla.sv
-../fa/fa.sv
-../ha/ha.sv
